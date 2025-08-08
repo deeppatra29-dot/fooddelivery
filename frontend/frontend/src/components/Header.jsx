@@ -67,7 +67,7 @@ const Header = () => {
                                         <Link className="nav-link text-white" to="/service">Service</Link>
                                     </li>
                                     <li className="nav-item">
-                                        <Link className="nav-link text-white" to="/dashboard">Dashboard</Link>
+                                        <Link className="nav-link text-white" to="/dashboard">Payment</Link>
                                     </li>
                                     <li className="nav-item">
                                         <button className="btn btn-light ms-2" onClick={handleLogout}>Logout</button>
