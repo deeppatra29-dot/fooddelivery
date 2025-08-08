@@ -1,0 +1,44 @@
+.about-section {
+  background-color: #f9f9f9;
+  padding: 2rem;
+}
+
+/* Consistent card styling */
+.food-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100%;
+  transition: transform 0.2s ease;
+}
+
+.food-card:hover {
+  transform: scale(1.02);
+}
+
+/* Fixed image size */
+.food-image {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
+
+/* Flex-grow for uniform card content layout */
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+}
